@@ -1,0 +1,21 @@
+---
+title: ""
+subtitle: ""  
+author: ""
+date: ''
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      ratio: "16:9"
+---
+
+background-image: url("Certificados png.png")
+background-repeat: no-repeat;
+background-size: 100%
+
+class: center, middle
+
+### Certificamos que FULANA participou como ORGANIZADORA/PALESTRANTE/PARTICIPANTE do evento XXXXX promovido por RLadies - São Paulo, realizado em LOCAL e DATA, com carga horária de YYY
+
