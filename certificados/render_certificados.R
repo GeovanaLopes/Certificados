@@ -1,12 +1,17 @@
 
-# carregar lista de participantes e substituir na variável 'lista'
+# carregar lista de participantes e substituir na variÃ¡vel 'lista'
 
-lista <- c("teste1","teste2","teste3") 
+lista <- c("teste1","teste2","teste3")
 
 
+# Gerar arquivos html
 purrr::walk(lista,
-            ~rmarkdown::render('.//certificados.Rmd', 
-            params = list(teste = .), 
-            output_file = glue::glue('.//file_{.}.html')))
-                              
-                        
+            ~rmarkdown::render("certificados/modelo_certificados.Rmd",
+            params = list(nome = .),
+            output_file = glue::glue('Certificado_R-Ladies_{.}.html')))
+
+
+# Gerar os PDF's
+purrr::walk(.x= list.files( pattern = "\\.html$", recursive = TRUE),
+            .f = pagedown::chrome_print)
+
