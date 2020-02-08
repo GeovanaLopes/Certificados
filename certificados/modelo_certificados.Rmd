@@ -1,0 +1,43 @@
+---
+title: ""
+subtitle: ""  
+author: ""
+date: ''
+params:
+  nome_participante: "Ana Lucia Solidade Ribeiro de Magalhãesa"
+  tipo_participacao: "participante"
+  nome_meetup: "Curso Básico de R"
+  duracao: "8 horas"
+  realizado_em: " 08 de fevereiro de 2020 em São Paulo - SP"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    # css: xaringan-themer.css
+    css: [default, kunoichi, ninjutsu,  "css_alterado.css"]
+    nature:
+      ratio: "16:9"
+    includes:
+knit: pagedown::chrome_print
+
+---
+
+background-image: url("certificado-base.png")
+background-repeat: no-repeat;
+background-size: 100%
+
+
+class: 
+
+# `r params$nome_participante` 
+####  `r params$tipo_participacao` 
+<br>
+
+## `r params$nome_meetup` 
+<br>
+
+### `r params$duracao` 
+<br>
+### `r params$realizado_em` 
+ 
+
+

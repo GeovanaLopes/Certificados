@@ -1,0 +1,41 @@
+.remark-slide-content {
+
+  padding: 10em 4em 1em 14.3em;
+}
+
+.remark-slide-number {
+  display: none;
+}
+
+
+.remark-slide-content h1 {
+    color: #af42c0;
+    font-size: 220%;
+    font-family: "Helvetica Narrow Medium", Helvetica;
+}
+
+.remark-slide-content h2 {
+    color: #af42c0;
+    font-size: 230%;
+    padding-left: 0px;
+    font-family: "Helvetica Narrow Medium", Helvetica;
+}
+
+
+.remark-slide-content h3 {
+    color: #af42c0;
+    font-size: 140% !important;
+    padding-left: 0px;
+    font-family: "Helvetica Narrow Medium", Helvetica;
+}
+
+.remark-slide-content h4 {
+    color: #af42c0;
+    font-size: 140% !important;
+    padding-left: 275px;
+    padding-top: 13px;
+    font-family: "Helvetica Narrow Medium", Helvetica;
+}
+
+
+
